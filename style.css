@@ -58,8 +58,8 @@ span{
     word-spacing: 15px;
 }
 hr{
-    border: 1px solid white;
-    width: 400px;
+    border: 2px solid white;
+    width: 100px;
     margin: 20px 0px;
 }
 p{
@@ -67,6 +67,23 @@ p{
     color: olive;
     word-spacing: 15px;
     max-width: 80ch;
+}
+.btn{
+    background: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 20px;
+    word-spacing: 10px;
+}
+.btn:hover{
+    background: mediumorchid;
+    opacity: 80%;
+    cursor: pointer;
 }
 .about{
     display: flex;
@@ -148,12 +165,12 @@ textarea{
 }
 input:focus-within{
     outline: none;
-    background-color: #5bd183;
+    background-color: mediumorchid;
     border-width: 3px;
 }
 textarea:focus-within{
     outline: none;
-    background-color: #5bd183;
+    background-color: mediumorchid;
     border-width: 5px;
 }
 button{
@@ -163,10 +180,14 @@ button{
     box-sizing: 50px;
     padding: 10px 18px;
     text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
     display: flex;
     margin: auto;
+    word-spacing: 10px;
 }
 button:hover{
+    background: mediumorchid;
     opacity: 80%;
     cursor: pointer;
 }
